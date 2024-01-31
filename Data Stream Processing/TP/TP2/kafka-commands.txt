@@ -1,0 +1,17 @@
+-- TP commands --
+
+Init zookeeper :
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Init server :
+bin/kafka-server-start.sh config/server.properties
+
+Create topic : 
+./bin/kafka-topics.sh --create --topic velib-stations --partitions 2 --replication-factor 1 --bootstrap-server localhost:9092
+./bin/kafka-topics.sh --create --topic stations-status --partitions 1 --replication-factor 1 --bootstrap-server localhost:9092
+
+Get list of topics :
+./bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+
+Check published data (for ingest-data.py testing): 
+./bin/kafka-console-consumer.sh --topic velib-stations --bootstrap-server localhost:9092 --from-beginning
