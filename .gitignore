@@ -1,0 +1,53 @@
+#personal
+Administratif/
+Capstone\ project
+Remise\ à\ niveau/
+Stage/
+Legacy
+
+#Unrelevant files
+Law and Ethics of AI
+DataCamp
+Cloud Data Infrastructure
+Reinforcement Learning
+ResponsibleAI
+Hickathon
+
+#Data Stream Processing ignores
+Data Stream Processing/*
+!Data Stream Processing/TP
+Data Stream Processing/TP/data_stream_proc_venv
+Data Stream Processing/TP/TP1/covtypeNorm.arff
+Data Stream Processing/TP/TP1/data
+Data Stream Processing/TP/TP3/data
+
+#Practical Introduction to Machine Learning ignores
+Practical introduction to Machine Learning/*
+!Practical introduction to Machine Learning/TP
+Practical introduction to Machine Learning/TP/.vscode
+Practical introduction to Machine Learning/TP/MLintro_venv
+
+#Deep Learning 1 ignores
+Deep Learning 1/*
+!Deep Learning 1/Labs
+Deep Learning 1/Labs/Labs_env
+Deep\ Learning\ 1/Labs/PyTorch\ Tutorials
+
+#NLP ignores
+NLP/TP/NLP_venv
+NLP/TP/Cours/fake.csv
+NLP/TP/TP2/aclImdb
+!NLP/TP
+NLP/*
+
+#Optimization for Data Science ignores
+Optimization for Data Science/*
+!Optimization for Data Science/Labs
+Optimization for Data Science/Labs/optim_venv
+
+#Law and Ethics ignores
+
+
+
+
+
